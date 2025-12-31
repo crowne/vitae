@@ -1,0 +1,401 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Neil Crow
+  headline: Systems Architect
+  location: East Sussex, UK
+  email: crow.neil@gmail.com
+  photo:
+  phone:
+  website: https://crowne.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: neilcrow
+    - network: GitHub
+      username: crowne
+    - network: StackOverflow
+      username: 97745/crowne
+  custom_connections:
+  sections:
+    Executive Summary:
+      - name: "Senior Software Engineer / Technical Architect (Financial Services)"
+        summary: |
+          Senior engineer/architect with 25+ years’ experience designing, building, and modernising complex systems within Investment Banking, Capital Markets, and regulated financial environments.
+          Broad generalist with hands-on experience across data modelling, application design, system integration, and both distributed and monolithic architectures, including real-time event-driven and batch-oriented systems.
+          Experienced technical leader, frequently entrusted with delivery ownership and team leadership while remaining closely involved in hands-on development. Known for high engineering standards, a focus on robust simplicity, and driving automation through CI/CD, build pipelines, and enforceable conventions.
+          Brings a pragmatic approach to modernisation, with a track record of improving delivery practices and reducing risk in legacy-heavy environments.
+    education:
+      - institution: University of South Africa
+        area: Information Technology and Computer Science
+        degree: BSc
+        date: 2011-11
+        summary: Software Engineering Stream
+      - institution: University of South Africa
+        area: National Certificate in Data Metrics
+        degree: NC
+        date: 2006-10
+        highlights:
+          - cum laude
+    certifications:
+      - name: Sun Certified Java Programmer
+        date: 2002-06
+      - name: National Diploma in Structured COBOL Programming
+        date: 1994-11
+    courses:
+      - name: Tibco - EMS301 Enterprise Messaging Service
+        date: 2007-06
+      - name: Tibco - BW611 BusinessWorks Integration
+        date: 2007-06
+      - name: Informatica - Data Integration (ETL)
+        date: 2007-09
+      - name: Platinum Education - SQL Programming for DB2
+        date: 1996-06
+      - name: IBM - CICS Command Level Coding
+        date: 1995-06
+      - name: IBM - CICS Advanced Application Coding
+        date: 1995-06
+      - name: Cobol Programming - Advanced Structured Cobol
+        date: 1992-11
+    experience:
+      - company: Apex Group (MJ Hudson)
+        position: System Architect / Staff Engineer
+        start_date: 2021-10
+        end_date: present
+        location: London, UK
+        summary: IQ Application Suite & ESG Platform
+        highlights:
+          - Led hands-on modernisation of a core ESG reporting platform, transforming a legacy PHP system into a modular, containerised architecture using C#, React, and Kubernetes on Azure.
+          - "Drove SDLC maturity improvements: introduced Git-based workflows, peer reviews, CI/CD pipelines, automated testing, and GitOps-driven infrastructure as code using Bicep."
+          - Designed and executed incremental architectural migration using the strangler-fig pattern, enabling continuous delivery while reducing platform risk.
+          - Partnered with business stakeholders to refocus the platform as Apex’s primary ESG capability, balancing regulatory requirements with delivery constraints.
+          - Designed data integration and reporting architecture, including Snowflake-based data warehousing and PowerBI analytics.
+          - Remained hands-on across backend, frontend, CI/CD, and cloud infrastructure, pairing with engineers to establish standards and unblock delivery.
+          - Provided technical leadership across distributed teams without formal line-management focus.
+      - company: Standard Bank / Infomet
+        position: Senior Software Engineer / Staff-Level Technical Lead
+        start_date: 2011-04
+        end_date: 2021-09
+        location: Johannesburg, ZA
+        summary: Pan-African Sub-Ledger Platform
+        highlights:
+          - Designed and delivered a detailed financial sub-ledger platform rolled out across 18 African countries, supporting trading, core banking, credit cards, and asset finance.
+          - Acted as technical authority for posting engines, data ingestion, and financial correctness across multiple asset classes, including bonds, FX derivatives, loans, and money markets.
+          - Led incremental evolution of the platform over a decade, including database upgrades, infrastructure modernisation, and build/deploy automation.
+          - Developed reusable financial and technical components adopted across multiple streams, reducing duplication and operational risk.
+          - Worked closely with business analysts and finance stakeholders to translate complex financial requirements into robust, auditable systems.
+          - Improved delivery reliability through automated deployments, environment promotion, and source-control standardisation.
+      - company: Standard Bank
+        position: Software Engineer / Technical Lead
+        start_date: 2010-01
+        end_date: 2011-03
+        location: Johannesburg, ZA
+        summary: CIB Treasury Calypso Trading System
+        highlights:
+          - Served as technical lead for the Calypso trading platform within CIB Treasury, owning the technical design and implementation for onboarding new product types, including government and corporate bonds and floating-rate money market instruments.
+          - Acted as the primary technical authority on Calypso for treasury and capital markets workflows, supporting business analysts and front-office stakeholders in translating complex product requirements into robust system implementations.
+          - Represented Standard Bank CIB on industry-wide working committees with the Central Securities Depository, contributing to and influencing market-wide interface specifications that were subsequently adopted as the country standard.
+          - Led significant improvements to the development lifecycle for Calypso teams, migrating builds from Ant to Maven, introducing unit testing, and establishing a standardised build structure adopted across multiple teams.
+          - Improved technical and business documentation practices by introducing structured, shared documentation via internal wiki platforms, reducing knowledge silos and improving operational transparency.
+          - Remained hands-on throughout, contributing directly to code, build tooling, and integrations while providing technical leadership across the platform.
+      - company: Rand Merchant Bank
+        position: Domain Architect - Integration
+        start_date: 2006-11
+        end_date: 2009-12
+        location: Johannesburg, ZA
+        summary: Lead for Integration Centre of Excellence
+        highlights:
+          - Served as Domain Architect for integration across the RADA reporting and analytics project, owning end-to-end integration and orchestration between 19 upstream source systems and Oracle Financials.
+          - Designed and implemented enterprise integration architecture using TIBCO integration suite and Informatica ETL, ensuring data consistency, traceability, and reliability across heterogeneous systems.
+          - Acted as Technical Architect for the Master Data Management platform, designing and delivering a JEE-based application deployed on JBoss to manage shared reference and master data.
+          - Led integration architecture for a bank-wide KYC initiative, defining interfaces, data flows, and orchestration patterns across multiple systems of record.
+          - Served as Technical Lead for the Enterprise Application Integration (EAI) programme, evaluating commercial and open-source ESB technologies and shaping the bank’s integration strategy.
+          - Remained hands-on throughout, contributing to Java/JEE development, build tooling, automated testing, and integration components.
+          - Improved engineering discipline and delivery quality through XP practices, pair programming, automated builds, and shared documentation using Jira and Confluence.
+          - Developed internal tooling, including an open-source Jira plugin enabling LDAP-based single sign-on with Active Directory, improving developer productivity and platform usability.
+      - company: STRATE Limited
+        position: IT Development Manager / Technical Architect
+        start_date: 2001-10
+        end_date: 2006-10
+        location: Johannesburg, ZA
+        summary: CSD & Securities Settlement System
+        highlights:
+          - Progressed from Front-End Team Lead on a mission-critical C++ settlement application to IT Development Manager, with responsibility across Java and COBOL/CICS/DB2 development teams.
+          - Held overall technical responsibility for application development and integration across STRATE’s core settlement platforms (SAFIRES and UNEXCOR), which settle all equity, bond, money-market, and OTC trades on the JSE and BESA exchanges.
+          - Led the migration of the SAFE platform from IBM C++ to J2EE, designing the target architecture and delivering a production system deployed across JBoss and WebSphere on Windows and AIX.
+          - Owned architecture and delivery across a heterogeneous estate spanning Java/J2EE front-end systems and mainframe back-end services, with a strong focus on correctness, resilience, and regulatory compliance.
+          - Designed and delivered integration and messaging solutions supporting SWIFT, FIX, XML, and JMS-based workflows, including message routing, transformation, and tracking capabilities.
+          - Planned and implemented web-based reporting and data-sales platforms, defining application architecture, database design, and secure connectivity to DB2 on z/OS via MQ Series.
+          - Defined and enforced Java engineering standards, architectural patterns, and build practices across teams, improving consistency, maintainability, and delivery quality.
+          - Represented STRATE on the South African FIX Protocol working group, contributing to industry-wide interoperability standards.
+          - Managed recruitment, mentoring, and technical standards across a team of approximately 19 engineers, while remaining closely involved in architectural decisions and complex technical problem-solving.
+      - company: UBS Warburg
+        position: Systems Analyst
+        start_date: 1998-02
+        end_date: 2001-07
+        location: London, UK
+        summary: Euro conversion, Y2K and new stock reconciliation system
+        highlights:
+          - Delivered extensive enhancements to a legacy IDMS-based trading and reconciliation platform to support Euro currency adoption, meeting regulatory requirements and an immovable market deadline.
+          - Led technical upgrades across critical integration components, including CICS and Sybase gateways, to ensure full Year 2000 compliance for high-value financial processing systems.
+          - Designed, built, and rolled out a global stock reconciliation system, delivering a three-tier architecture with a COBOL/CICS/DB2 back-end and distributed Domino servers accessed via Lotus Notes.
+          - Implemented reliable, high-volume messaging between mainframe and distributed components using MQ Series, supporting global reconciliation workflows.
+          - Designed and delivered a SWIFT message retrieval system using MQ Series clients with C++ and Delphi on Windows NT.
+          - Provided production support and ongoing enhancements for both NT-based stock reconciliation systems and the MVS-based cash reconciliation platform (CORONA) within a high-availability investment banking environment.
+      - company: BACG / Armature
+        position: Analyst Programmer
+        start_date: 1997-04
+        end_date: 1998-01
+        location: Johannesburg, ZA & Salt Lake City, USA
+        summary: Retail Masterdata Management System
+        highlights:
+          - Enhanced and maintained a COBOL/CICS/DB2 application supporting retail warehouse and distribution operations.
+          - Used TELON CASE tooling to generate COBOL programs for master data and transactional processing.
+          - Acted as technical advisor to an outsourced project and coordinated application upgrades to client sites.
+          - Participated in on-site system implementation with client teams in the United States.
+      - company: Standard Bank
+        position: Programmer
+        start_date: 1995-02
+        end_date: 1997-03
+        location: Johannesburg, ZA
+        summary: Branch Banking System
+        highlights:
+          - Developed and maintained a branch front-line banking system built on a COBOL/CICS/DB2 back-end with distributed DB2 databases deployed to branch environments.
+          - Contributed to the design and implementation of an early Internet Banking platform using COBOL, CICS DLI, and Sybase Gateway integration.
+          - Provided second-line, 24-hour operational support for mainframe batch processing, ensuring reliability of end-of-day and overnight financial workflows.
+    # projects:
+    #   - name: '[FlashInfer](https://github.com/)'
+    #     date:
+    #     start_date: 2023-01
+    #     end_date: present
+    #     location:
+    #     summary: Open-source library for high-performance LLM inference kernels
+    #     highlights:
+    #       - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
+    #       - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+    #   - name: '[NeuralPrune](https://github.com/)'
+    #     date: '2021'
+    #     start_date:
+    #     end_date:
+    #     location:
+    #     summary: Automated neural network pruning toolkit with differentiable masks
+    #     highlights:
+    #       - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
+    #       - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
+    skills:
+      - label: Languages
+        details: Java, C#, JavaScript/TypeScript, SQL, PL/SQL, PHP, Groovy, Python, Powershell, Bash, HTML, COBOL
+      - label: JS Frameworks
+        details: React, Svelte-Kit, Vue, Vite
+      - label: Testing
+        details: xUnit, NUnit, Jest, Selenium, Postman, jmockit, Mockito, Cobertura
+      - label: Source Control
+        details: Git, GitHub, Subversion, CVS
+      - label: CI/CD
+        details: GitHub Actions, Azure DevOps, Azure Pipelines
+      - label: Databases
+        details: Oracle, PostgreSQL, SQL Server, MySQL/MariaDB, SQLite, Sybase, DB2
+      - label: Messaging & Integration
+        details: Azure Service Bus, RabbitMQ, Tibco EMS/BW, Websphere MQ, RESTful APIs, SOAP Web Services
+      - label: Containers & Orchestration
+        details: Docker, Docker Compose, Podman, Kubernetes, Kustomize
+      - label: Infrastructure
+        details: Terraform, Cloudformation, Bicep, AWS, GCP
+      - label: Cloud Platforms
+        details: Microsoft Azure, AWS
+      - label: Collaboration Tools
+        details: Azure DevOps, JIRA, Confluence
+    # patents:
+    #   - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
+    #   - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
+    #   - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
+    # invited_talks:
+    #   - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
+    #   - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
+    #   - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
+    #   - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
+    # any_section_title:
+    #   - You can use any section title you want.
+    #   - 'You can choose any entry type for the section: `TextEntry`, `ExperienceEntry`, `EducationEntry`, `PublicationEntry`, `BulletEntry`, `NumberedEntry`, or `ReversedNumberedEntry`.'
+    #   - Markdown syntax is supported everywhere.
+    #   - The `design` field in YAML gives you control over almost any aspect of your CV design.
+    #   - See the [documentation](https://docs.rendercv.com) for more details.
+design:
+  theme: classic
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2025-12-30'
+  render_command:
+    design:
+    locale:
+    typst_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: ../dist/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: ../dist/NAME_IN_SNAKE_CASE_CV.html
+    png_path: ../rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []

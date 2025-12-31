@@ -1,0 +1,18 @@
+services:
+  rendercv:
+    image: ghcr.io/rendercv/rendercv
+    container_name: rendercv
+    user: root
+    command: >
+      render Neil_Crow_CV.yaml 
+      --pdf-path /app/dist/Neil_Crow_CV.pdf 
+      --html-path /app/dist/Neil_Crow_CV.html
+      --watch
+    volumes:
+      - ./src:/app/src
+      - ./dist:/app/dist
+    working_dir: /app/src
+    develop:
+      watch:
+        - action: restart
+          path: ./src
