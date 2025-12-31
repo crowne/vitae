@@ -182,11 +182,11 @@ cv:
     #       - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
     skills:
       - label: Languages
-        details: Java, C#, JavaScript/TypeScript, SQL, PL/SQL, PHP, Groovy, Python, Powershell, Bash, HTML, COBOL
+        details: C#, JavaScript/TypeScript, SQL, PL/SQL, PHP, Python, Java, Groovy, Powershell, Bash, HTML, C, C++, COBOL
       - label: JS Frameworks
         details: React, Svelte-Kit, Vue, Vite
       - label: Testing
-        details: xUnit, NUnit, Jest, Selenium, Postman, jmockit, Mockito, Cobertura
+        details: JUnit, xUnit, NUnit, Jest, Selenium, Postman, Playwright, Mockito, Cobertura, Cucumber
       - label: Source Control
         details: Git, GitHub, Subversion, CVS
       - label: CI/CD
@@ -195,12 +195,16 @@ cv:
         details: Oracle, PostgreSQL, SQL Server, MySQL/MariaDB, SQLite, Sybase, DB2
       - label: Messaging & Integration
         details: Azure Service Bus, RabbitMQ, Tibco EMS/BW, Websphere MQ, RESTful APIs, SOAP Web Services
+      - label: Web Servers & SSL
+        details: nginx, Apache HTTP Server, IIS, certbot
       - label: Containers & Orchestration
         details: Docker, Docker Compose, Podman, Kubernetes, Kustomize
       - label: Infrastructure
         details: Terraform, Cloudformation, Bicep, AWS, GCP
       - label: Cloud Platforms
         details: Microsoft Azure, AWS
+      - label: Cloud Services
+        details: Azure (DNS; Container Registry; AKS; Vault), Github Container Registry, AWS (Route 53; EC2; S3)
       - label: Collaboration Tools
         details: Azure DevOps, JIRA, Confluence
     # patents:
