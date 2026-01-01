@@ -17,9 +17,9 @@ cv:
   custom_connections:
   sections:
     Executive Summary:
-      - name: "Senior Software Engineer / Technical Architect (Financial Services)"
+      - name: "Systems Architect / Principal Software Engineer (Financial Services)"
         summary: |
-          Senior engineer/architect with 25+ years’ experience designing, building, and modernising complex systems within Investment Banking, Capital Markets, and regulated financial environments.
+          Architect/Principal Software Engineer with 25+ years’ experience designing, building, and modernising complex systems within Investment Banking, Capital Markets, and regulated financial environments.
           Broad generalist with hands-on experience across data modelling, application design, system integration, and both distributed and monolithic architectures, including real-time event-driven and batch-oriented systems.
           Experienced technical leader, frequently entrusted with delivery ownership and team leadership while remaining closely involved in hands-on development. Known for high engineering standards, a focus on robust simplicity, and driving automation through CI/CD, build pipelines, and enforceable conventions.
           Brings a pragmatic approach to modernisation, with a track record of improving delivery practices and reducing risk in legacy-heavy environments.
