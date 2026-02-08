@@ -64,11 +64,10 @@ cv:
         location: London, UK
         summary: IQ Application Suite & ESG Platform
         highlights:
-          - Lead development of containerised C# and PHP applications along with supporting microservices deployed to Kubernetes across multiple environments.
-          - Designed and implemented CI/CD pipelines supporting automated build, test, and deployment workflows.
-          - Created Docker Compose configurations to enable lightweight local development and integration testing.
-          - Collaborate closely with Product Managers to shape, prioritise, and deliver roadmap features across iterative releases.
-          - Contribute to architectural decisions spanning service boundaries, data modelling (Oracle), and integration patterns.
+          - Lead development of containerised C# and PHP applications along with supporting microservices deployed to Kubernetes across multiple environments, and docker compose for local dev environments.
+          - Designed and implemented CI/CD pipelines supporting automated build, test, and deployment workflows with authorization.
+          - Collaborate closely with Product Managers to shape, prioritise, and deliver roadmap features across iterative releases for the Private Equity focussed ESG Platform.
+          - Contribute to architectural decisions spanning service boundaries, data modelling (Oracle), and integration patterns to downstream systems including Snowflake and an AI partner platform.
           - Operate within a SAFe-scaled agile framework, with prior experience across multiple agile methodologies.
           - Provide technical leadership through design reviews, pairing, and mentoring while remaining hands-on in delivery.
       - company: Standard Bank / Infomet
