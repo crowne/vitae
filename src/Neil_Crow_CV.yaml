@@ -67,9 +67,9 @@ cv:
           - Lead development of containerised C# and PHP applications along with supporting microservices deployed to Kubernetes across multiple environments, and docker compose for local dev environments.
           - Designed and implemented CI/CD pipelines supporting automated build, test, and deployment workflows with authorization.
           - Collaborate closely with Product Managers to shape, prioritise, and deliver roadmap features across iterative releases for the Private Equity focussed ESG Platform.
-          - Contribute to architectural decisions spanning service boundaries, data modelling (Oracle), and integration patterns to downstream systems including Snowflake and an AI partner platform.
+          - Provide leadership on architectural decisions spanning service boundaries, data modelling (Oracle), and integration patterns to downstream systems including Snowflake and an AI partner platform.
           - Operate within a SAFe-scaled agile framework, with prior experience across multiple agile methodologies.
-          - Provide technical leadership through design reviews, pairing, and mentoring while remaining hands-on in delivery.
+          - Drive technical excellence by balancing hands-on delivery with design oversight, pair programming, and proactive mentorship.
       - company: Standard Bank / Infomet
         position: Senior Software Engineer / Staff-Level Technical Lead
         start_date: 2011-04
