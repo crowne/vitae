@@ -19,10 +19,11 @@ cv:
     Executive Summary:
       - name: "Systems Architect / Principal Software Engineer (Financial Services)"
         summary: |
-          Architect/Principal Software Engineer with 25+ years’ experience designing, building, and modernising complex systems within Investment Banking, Capital Markets, and regulated financial environments.
-          Broad generalist with hands-on experience across data modelling, application design, system integration, and both distributed and monolithic architectures, including real-time event-driven and batch-oriented systems.
-          Experienced technical leader, frequently entrusted with delivery ownership and team leadership while remaining closely involved in hands-on development. Known for high engineering standards, a focus on robust simplicity, and driving automation through CI/CD, build pipelines, and enforceable conventions.
-          Brings a pragmatic approach to modernisation, with a track record of improving delivery practices and reducing risk in legacy-heavy environments.
+          Architect / Principal Software Engineer with 25+ years experience designing, building, and evolving large-scale systems within Investment Banking, Capital Markets, and regulated financial environments.
+
+          Broad generalist with strong hands-on experience across application design, system integration, distributed architectures, and event-driven systems. Currently delivering containerised microservices platforms running on Kubernetes with CI/CD automation across multiple environments.
+
+          Experienced technical leader combining architectural ownership with hands-on delivery. Comfortable leading engineers, mentoring through pairing and design reviews, and working closely with Product to shape and prioritise roadmap delivery while maintaining high engineering standards and robust simplicity.
     education:
       - institution: University of South Africa
         area: Information Technology and Computer Science
@@ -63,13 +64,13 @@ cv:
         location: London, UK
         summary: IQ Application Suite & ESG Platform
         highlights:
-          - Led hands-on modernisation of a core ESG reporting platform, transforming a legacy PHP system into a modular, containerised architecture using C#, React, and Kubernetes on Azure.
-          - "Drove SDLC maturity improvements: introduced Git-based workflows, peer reviews, CI/CD pipelines, automated testing, and GitOps-driven infrastructure as code using Bicep."
-          - Designed and executed incremental architectural migration using the strangler-fig pattern, enabling continuous delivery while reducing platform risk.
-          - Partnered with business stakeholders to refocus the platform as Apex’s primary ESG capability, balancing regulatory requirements with delivery constraints.
-          - Designed data integration and reporting architecture, including Snowflake-based data warehousing and PowerBI analytics.
-          - Remained hands-on across backend, frontend, CI/CD, and cloud infrastructure, pairing with engineers to establish standards and unblock delivery.
-          - Provided technical leadership across distributed teams without formal line-management focus.
+          - Lead development of containerised C# and PHP applications along with supporting microservices deployed to Kubernetes across multiple environments.
+          - Designed and implemented CI/CD pipelines supporting automated build, test, and deployment workflows.
+          - Created Docker Compose configurations to enable lightweight local development and integration testing.
+          - Collaborate closely with Product Managers to shape, prioritise, and deliver roadmap features across iterative releases.
+          - Contribute to architectural decisions spanning service boundaries, data modelling (Oracle), and integration patterns.
+          - Operate within a SAFe-scaled agile framework, with prior experience across multiple agile methodologies.
+          - Provide technical leadership through design reviews, pairing, and mentoring while remaining hands-on in delivery.
       - company: Standard Bank / Infomet
         position: Senior Software Engineer / Staff-Level Technical Lead
         start_date: 2011-04
@@ -181,6 +182,10 @@ cv:
     #       - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
     #       - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
     skills:
+      - label: Architecture & Platforms
+        details: Microservices, Event-Driven Architecture, Distributed Systems, Service-Oriented Architecture, Cloud-Native Development
+      - label: Practices & Methodologies
+        details: Agile (SAFe, Scrum, Kanban), eXtreme Programming (XP), Test-Driven Development, Continuous Integration, Continuous Delivery
       - label: Languages
         details: C#, JavaScript/TypeScript, SQL, PL/SQL, PHP, Python, Java, Groovy, Powershell, Bash, HTML, C, C++, COBOL
       - label: JS Frameworks
@@ -192,7 +197,7 @@ cv:
       - label: CI/CD
         details: GitHub Actions, Azure DevOps, Azure Pipelines
       - label: Databases
-        details: Oracle, PostgreSQL, SQL Server, MySQL/MariaDB, SQLite, Sybase, DB2
+        details: Oracle, PostgreSQL, SQL Server, MySQL/MariaDB, SQLite, Sybase, DB2, IDMS, Lotus Notes
       - label: Messaging & Integration
         details: Azure Service Bus, RabbitMQ, Tibco EMS/BW, Websphere MQ, RESTful APIs, SOAP Web Services
       - label: Web Servers & SSL
