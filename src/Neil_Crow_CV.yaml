@@ -17,13 +17,10 @@ cv:
   custom_connections:
   sections:
     Executive Summary:
-      - name: "Systems Architect / Principal Software Engineer (Financial Services)"
-        summary: |
-          Architect / Principal Software Engineer with 25+ years experience designing, building, and evolving large-scale systems within Investment Banking, Capital Markets, and regulated financial environments.
-
-          Broad generalist with strong hands-on experience across application design, system integration, distributed architectures, and event-driven systems. Currently delivering containerised microservices platforms running on Kubernetes with CI/CD automation across multiple environments.
-
-          Experienced technical leader combining architectural ownership with hands-on delivery. Comfortable leading engineers, mentoring through pairing and design reviews, and working closely with Product to shape and prioritise roadmap delivery while maintaining high engineering standards and robust simplicity.
+      - "**Systems Architect / Principal Software Engineer (Financial Services)**"
+      - "Architect / Principal Software Engineer with 25+ years experience designing, building, and evolving large-scale systems within Investment Banking, Capital Markets, and regulated financial environments."
+      - "Broad generalist with strong hands-on experience across application design, system integration, distributed architectures, and event-driven systems. Currently delivering containerised microservices platforms running on Kubernetes with CI/CD automation across multiple environments."
+      - "Experienced technical leader combining architectural ownership with hands-on delivery. Comfortable leading engineers, mentoring through pairing and design reviews, and working closely with Product to shape and prioritise roadmap delivery while maintaining high engineering standards and robust simplicity."
     education:
       - institution: University of South Africa
         area: Information Technology and Computer Science
