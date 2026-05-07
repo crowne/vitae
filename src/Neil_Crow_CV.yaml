@@ -37,9 +37,8 @@ cv:
         highlights:
           - cum laude
     certifications:
-      - name: AWS Certified Solutions Architect - Associate
+      - name: "[AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/476e3e68-6f9e-4b0d-ba41-b4c1c98e227a)"
         date: 2026-05
-        url: https://www.credly.com/badges/476e3e68-6f9e-4b0d-ba41-b4c1c98e227a
       - name: Sun Certified Java Programmer
         date: 2002-06
       - name: National Diploma in Structured COBOL Programming
