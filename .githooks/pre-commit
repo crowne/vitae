@@ -1,0 +1,12 @@
+#!/bin/sh
+pwsh -NoProfile -Command "
+\$file = 'src/Neil_Crow_CV.yaml'
+\$staged = git diff --cached --name-only
+if (\$staged -contains \$file) {
+    \$today = Get-Date -Format 'yyyy-MM-dd'
+    \$content = Get-Content \$file -Raw
+    \$updated = \$content -replace \"(\s*current_date:\s*)'[0-9]{4}-[0-9]{2}-[0-9]{2}'\", \"\`\$1'\$today'\"
+    Set-Content \$file -Value \$updated -NoNewline
+    git add \$file
+}
+"
