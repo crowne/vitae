@@ -19,8 +19,8 @@ cv:
     Executive Summary:
       - "**Systems Architect / Principal Software Engineer (Financial Services)**"
       - "Architect / Principal Software Engineer with 25+ years experience designing, building, and evolving large-scale systems within Investment Banking, Capital Markets, and regulated financial environments."
-      - "Broad generalist with strong hands-on experience across application design, system integration, distributed architectures, and event-driven systems. Currently delivering containerised microservices platforms running on Kubernetes with CI/CD automation across multiple environments."
-      - "Experienced technical leader combining architectural ownership with hands-on delivery. Comfortable leading engineers, mentoring through pairing and design reviews, and working closely with Product to shape and prioritise roadmap delivery while maintaining high engineering standards and robust simplicity."
+      - "Broad generalist with strong hands-on experience across application design, data modeling, system integration, distributed architectures, and event-driven systems. Currently delivering a suite of containerised stacks running on Kubernetes with CI/CD automation across multiple environments, connected to several internal and external integration endpoints."
+      - "Experienced technical leader combining architectural ownership with hands-on delivery. Comfortable leading engineers, mentoring through pairing and design reviews, and working closely with product managers to shape and prioritise roadmap delivery while maintaining high engineering standards and robust simplicity."
     education:
       - institution: University of South Africa
         area: Information Technology and Computer Science
@@ -65,7 +65,7 @@ cv:
         highlights:
           - Lead development of containerised C# and PHP applications along with supporting microservices deployed to Kubernetes across multiple environments, and docker compose for local dev environments.
           - Designed and implemented CI/CD pipelines supporting automated build, test, and deployment workflows with authorization.
-          - Collaborate closely with Product Managers to shape, prioritise, and deliver roadmap features across iterative releases for the Private Equity focussed ESG Platform.
+          - Collaborate closely with product managers to shape, prioritise, and deliver roadmap features across iterative releases for the Private Equity focussed ESG Platform.
           - Provide leadership on architectural decisions spanning service boundaries, data modelling (Oracle), and integration patterns to downstream systems including Snowflake and an AI partner platform.
           - Operate within a SAFe-scaled agile framework, with prior experience across multiple agile methodologies.
           - Drive technical excellence by balancing hands-on delivery with design oversight, pair programming, and proactive mentorship.
