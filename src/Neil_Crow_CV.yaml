@@ -70,7 +70,7 @@ cv:
           - Operate within a SAFe-scaled agile framework, with prior experience across multiple agile methodologies.
           - Drive technical excellence by balancing hands-on delivery with design oversight, pair programming, and proactive mentorship.
       - company: Standard Bank / Infomet
-        position: Senior Software Engineer / Staff-Level Technical Lead
+        position: Staff Engineer / Technical Lead
         start_date: 2011-04
         end_date: 2021-09
         location: Johannesburg, ZA
@@ -391,7 +391,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-05-08'
+  current_date: '2026-05-30'
   render_command:
     design:
     locale:
